@@ -1,21 +1,24 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Contador />
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import { defineAsyncComponent } from 'vue'
+import  Contador from './components/Contador-otro.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    Contador
+
+    }
 }
 </script>
 
 <style>
-#app {
+#app { 
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
